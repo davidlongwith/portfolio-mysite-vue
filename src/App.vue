@@ -2,9 +2,7 @@
   <div id="app">
     <Header />
     <main>
-      <div id="main-content">
-        <router-view />
-      </div>
+      <router-view />
     </main>
   </div>
 </template>
@@ -49,12 +47,9 @@ body {
 }
 
 main {
-  font-size: 1rem;
-}
-
-#main-content {
   align-items: center;
   display: flex;
+  font-size: 1rem;
   height: 100vh;
   justify-content: center;
   min-height: calc(100vh - 3em); /* full height minus padding-top */
