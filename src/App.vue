@@ -1,38 +1,59 @@
 <template>
   <div id="app">
-    <NavBar />
+    <Header />
     <router-view />
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
+import Header from "@/components/Header.vue";
 
 export default {
   components: {
-    NavBar
+    Header
   }
 };
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
+* {
+  box-sizing: border-box;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+html {
+  font-size: 18px;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+main {
+  font-size: 1rem;
+}
+
+#main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em; /* allow space for fixed header */
+  min-height: calc(100vh - 3em); /* full height minus padding-top */
+  width: 100vw;
 }
 </style>
