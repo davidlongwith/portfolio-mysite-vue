@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <Header />
-    <router-view />
+    <main>
+      <div id="main-content">
+        <router-view />
+      </div>
+    </main>
   </div>
 </template>
 
@@ -49,11 +53,12 @@ main {
 }
 
 #main-content {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding-top: 3em; /* allow space for fixed header */
+  display: flex;
+  height: 100vh;
+  justify-content: center;
   min-height: calc(100vh - 3em); /* full height minus padding-top */
+  padding-top: 3em; /* allow space for fixed header */
   width: 100vw;
 }
 </style>

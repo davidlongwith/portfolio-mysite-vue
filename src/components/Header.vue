@@ -16,15 +16,17 @@ export default {};
 
 <style scoped>
 header {
-  display: flex;
   align-items: center;
+  display: flex;
+  font-size: 1.5rem;
   justify-content: space-between;
-  font-size: 1.75rem;
+  position: absolute;
   width: 100%;
 }
 
 header button {
   background: none;
+  border: none;
   color: #fff;
   font-size: 1em;
   margin: 0;
@@ -38,7 +40,6 @@ header button {
 
 @media (min-width: 960px) {
   header {
-    display: flex;
     justify-content: center;
     position: fixed;
   }
