@@ -39,6 +39,7 @@ html {
 
 html,
 body,
+#app,
 main {
   height: 100%;
   margin: 0;
@@ -56,10 +57,6 @@ main {
   align-items: center;
   display: flex;
   font-size: 1rem;
-  height: 100vh;
   justify-content: center;
-  min-height: calc(100vh - 3em); /* full height minus padding-top */
-  padding-top: 3em; /* allow space for fixed header */
-  width: 100vw;
 }
 </style>
