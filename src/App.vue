@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Menu />
     <main>
       <router-view />
     </main>
@@ -9,10 +10,12 @@
 
 <script>
 import Header from "@/components/Header.vue";
+import Menu from "@/components/MenuDrawer.vue";
 
 export default {
   components: {
-    Header
+    Header,
+    Menu
   }
 };
 </script>
