@@ -42,10 +42,6 @@ export default {};
 #main-menu-toggle {
   height: var(--buttonHeight);
   position: relative;
-  width: var(--buttonWidth);
-}
-
-#main-menu-toggle {
   /*
    * Vertical Side Drawer Button (left side):
    * Move x-axis "-(half the width - half the height)" then rotate 90 degrees counter-clockwise on center axis.
@@ -54,6 +50,7 @@ export default {};
       calc(-1 * (((var(--buttonWidth)) / 2) - ((var(--buttonHeight)) / 2)))
     )
     rotate(-90deg);
+  width: var(--buttonWidth);
 }
 
 @media (max-width: 960px), (min-width: 1440px) {

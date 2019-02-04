@@ -2,6 +2,7 @@
   <div id="app">
     <Header />
     <Menu />
+    <Contact />
     <main>
       <router-view />
     </main>
@@ -11,11 +12,13 @@
 <script>
 import Header from "@/components/Header.vue";
 import Menu from "@/components/MenuDrawer.vue";
+import Contact from "@/components/ContactDrawer.vue";
 
 export default {
   components: {
     Header,
-    Menu
+    Menu,
+    Contact
   }
 };
 </script>
