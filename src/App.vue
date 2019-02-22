@@ -46,22 +46,4 @@ body {
   background-color: #000;
   overflow-x: hidden;
 }
-
-.side-button-div {
-  --buttonWidth: 171px;
-  --buttonHeight: 55px;
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.side-button-div-right {
-  right: 0;
-}
-
-@media (max-width: 960px), (min-width: 1440px) {
-  .side-button-div {
-    display: none;
-  }
-}
 </style>

@@ -15,8 +15,22 @@ export default {};
 
 <style scoped>
 /*
- * Left Side Drawer
+ * Left Side Button
  */
+
+.side-button-div {
+  --buttonWidth: 171px;
+  --buttonHeight: 55px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 960px), (min-width: 1440px) {
+  .side-button-div {
+    display: none;
+  }
+}
 
 #side-button-left {
   background: none;
@@ -35,6 +49,10 @@ export default {};
     rotate(-90deg);
   width: var(--buttonWidth);
 }
+
+/*
+ * Left Side Drawer
+ */
 
 #drawer-left {
   background: #000;
