@@ -17,32 +17,30 @@ new Vue({
  */
 
 // Get buttons and drawers
-const menuBttn = document.querySelectorAll(".menu-button");
-const menu = document.querySelector("#main-menu");
+const leftDrawerButtons = document.querySelectorAll(".drawer-button-left");
+const leftDrawer = document.querySelector("#drawer-left");
 
-const contactBttn = document.querySelectorAll(".contact-button");
-const contactDiv = document.querySelector("#contact-div");
+const rightDrawerButtons = document.querySelectorAll(".drawer-button-right");
+const rightDrawer = document.querySelector("#drawer-right");
 
-const main = document.getElementsByTagName("main")[0];
-
-// click button(s) to show menu
-for (let i = 0; i < menuBttn.length; i++) {
-  menuBttn[i].addEventListener("click", function(e) {
-    menu.classList.toggle("open");
+// click button(s) to show left side drawer
+for (let i = 0; i < leftDrawerButtons.length; i++) {
+  leftDrawerButtons[i].addEventListener("click", function(e) {
+    leftDrawer.classList.toggle("open");
     e.stopPropagation();
   });
 }
 
-// click button(s) to show contact form
-for (let i = 0; i < contactBttn.length; i++) {
-  contactBttn[i].addEventListener("click", function(e) {
-    contactDiv.classList.toggle("open");
+// click button(s) to show right side drawer
+for (let i = 0; i < rightDrawerButtons.length; i++) {
+  rightDrawerButtons[i].addEventListener("click", function(e) {
+    rightDrawer.classList.toggle("open");
     e.stopPropagation();
   });
 }
 
-// click outside to close
-main.addEventListener("click", function() {
-  menu.classList.remove("open");
-  contactDiv.classList.remove("open");
+// click anywhere to close
+window.addEventListener("click", function() {
+  leftDrawer.classList.remove("open");
+  rightDrawer.classList.remove("open");
 });

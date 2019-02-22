@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <Menu />
-    <Contact />
+    <MenuDrawer />
+    <ContactDrawer />
     <main>
       <router-view />
     </main>
@@ -11,36 +11,31 @@
 
 <script>
 import Header from "@/components/Header.vue";
-import Menu from "@/components/MenuDrawer.vue";
-import Contact from "@/components/ContactDrawer.vue";
+import MenuDrawer from "@/components/LeftSideDrawer.vue";
+import ContactDrawer from "@/components/RightSideDrawer.vue";
 
 export default {
   components: {
     Header,
-    Menu,
-    Contact
+    MenuDrawer,
+    ContactDrawer
   }
 };
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
 html {
-  font-size: 18px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 html,
-body,
-#app,
-main {
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -49,14 +44,24 @@ main {
 
 body {
   background-color: #000;
-  color: #fff;
   overflow-x: hidden;
 }
 
-main {
-  align-items: center;
-  display: flex;
-  font-size: 1rem;
-  justify-content: center;
+.side-button-div {
+  --buttonWidth: 171px;
+  --buttonHeight: 55px;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.side-button-div-right {
+  right: 0;
+}
+
+@media (max-width: 960px), (min-width: 1440px) {
+  .side-button-div {
+    display: none;
+  }
 }
 </style>

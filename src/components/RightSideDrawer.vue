@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="side-toggle side-toggle-right">
-      <button id="contact-toggle" class="contact-button">Contact</button>
+    <div class="side-button-div side-button-div-right">
+      <button id="side-button-right" class="drawer-button-right">
+        Click Me&#33;
+      </button>
     </div>
-    <div id="contact-div"></div>
+    <div id="drawer-right"></div>
   </div>
 </template>
 
@@ -12,19 +14,15 @@ export default {};
 </script>
 
 <style scoped>
-.side-toggle {
-  --buttonWidth: 171px;
-  --buttonHeight: 55px;
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
-}
+/*
+ * Right Side Drawer
+ */
 
-.side-toggle-right {
-  right: 0;
-}
-
-#contact-toggle {
+#side-button-right {
+  background: none;
+  border-top: none;
+  color: #fff;
+  font-size: 1.2em;
   height: var(--buttonHeight);
   position: relative;
   /*
@@ -38,20 +36,10 @@ export default {};
   width: var(--buttonWidth);
 }
 
-@media (max-width: 960px), (min-width: 1440px) {
-  .side-toggle {
-    display: none;
-  }
-}
-
-/*
- * Contact
- */
-
-#contact-div {
-  /* test styles... */
+#drawer-right {
+  background: #000;
   border: 1px solid red;
-  height: 10em;
+  height: 65%;
   position: fixed;
   right: 0;
   top: 50%;
@@ -60,12 +48,12 @@ export default {};
   width: 16em;
 }
 
-#contact-div.open {
+#drawer-right.open {
   transform: translate(0, -50%);
 }
 
 @media (min-width: 90em) {
-  #contact-div {
+  #drawer-right {
     transform: translate(0, -50%);
   }
 }
