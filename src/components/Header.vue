@@ -43,7 +43,7 @@ header button {
   background: none;
   border: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin: 0;
   padding: 0 18px;
 }
