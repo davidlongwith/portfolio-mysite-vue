@@ -18,12 +18,20 @@ export default {};
 header {
   align-items: center;
   display: flex;
+  font-size: 1.25rem;
   justify-content: space-between;
   position: absolute;
   width: 100%;
 }
 
+@media (min-width: 480px) {
+  header {
+    font-size: 1.75rem;
+  }
+}
+
 #header-logo a {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -31,7 +39,7 @@ header button {
   background: none;
   border: none;
   color: #fff;
-  font-size: 3.5em;
+  font-size: 1.5em;
   margin: 0;
   padding: 0 18px;
 }
