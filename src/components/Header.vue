@@ -30,6 +30,10 @@ header {
   }
 }
 
+div#header-logo {
+  padding: 10px 0;
+}
+
 #header-logo a {
   color: #fff;
   text-decoration: none;
