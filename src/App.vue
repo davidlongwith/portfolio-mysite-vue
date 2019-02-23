@@ -11,8 +11,8 @@
 
 <script>
 import Header from "@/components/Header.vue";
-import MenuDrawer from "@/components/LeftSideDrawer.vue";
-import ContactDrawer from "@/components/RightSideDrawer.vue";
+import MenuDrawer from "@/components/MenuDrawer.vue";
+import ContactDrawer from "@/components/ContactDrawer.vue";
 
 export default {
   components: {

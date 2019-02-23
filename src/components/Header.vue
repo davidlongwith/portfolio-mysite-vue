@@ -2,8 +2,8 @@
   <header>
     <button class="drawer-button-left">☰</button>
     <!-- Trigram for Heaven - unicode number U+2630 -->
-    <div id="header-logo">
-      <router-link to="/">davidlongwith.com</router-link>
+    <div id="header-brand">
+      <router-link to="/" class="brand">davidlongwith.com</router-link>
     </div>
     <button class="drawer-button-right">🖂</button>
     <!-- Back of Envelope - unicode number U+1F582 -->
@@ -30,12 +30,15 @@ header {
   }
 }
 
-div#header-logo {
+#header-brand {
   padding: 10px 0;
 }
 
-#header-logo a {
-  color: #fff;
+.brand {
+  color: #39b982;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
   text-decoration: none;
 }
 
