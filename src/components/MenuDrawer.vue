@@ -3,12 +3,20 @@
     <div class="side-button-div">
       <button id="side-button-left" class="drawer-button-left">Menu</button>
     </div>
-    <div id="drawer-left"></div>
+    <div id="drawer-left">
+      <NavBar />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import NavBar from "@/components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar
+  }
+};
 </script>
 
 <style scoped>
