@@ -49,6 +49,7 @@ body {
 }
 
 main {
+  color: #fff;
   display: flex; /* prevents margin collapse */
 }
 </style>
