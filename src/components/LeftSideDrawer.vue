@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="side-button-div">
-      <button id="side-button-left" class="drawer-button-left">
-        Click Me&#33;
-      </button>
+      <button id="side-button-left" class="drawer-button-left">Menu</button>
     </div>
     <div id="drawer-left"></div>
   </div>

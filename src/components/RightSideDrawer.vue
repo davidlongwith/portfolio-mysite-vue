@@ -2,7 +2,7 @@
   <div>
     <div class="side-button-div side-button-div-right">
       <button id="side-button-right" class="drawer-button-right">
-        Click Me&#33;
+        Contact
       </button>
     </div>
     <div id="drawer-right"></div>
