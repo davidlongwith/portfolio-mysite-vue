@@ -49,7 +49,10 @@ body {
 }
 
 main {
+  align-items: center;
   color: #fff;
   display: flex; /* prevents margin collapse */
+  height: 100vh;
+  justify-content: center;
 }
 </style>
