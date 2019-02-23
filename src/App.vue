@@ -35,7 +35,8 @@ html {
 }
 
 html,
-body {
+body,
+main {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -45,5 +46,9 @@ body {
 body {
   background-color: #000;
   overflow-x: hidden;
+}
+
+main {
+  display: flex; /* prevents margin collapse */
 }
 </style>
