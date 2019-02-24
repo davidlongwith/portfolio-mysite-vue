@@ -35,8 +35,7 @@ html {
 }
 
 html,
-body,
-main {
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -44,12 +43,19 @@ main {
 }
 
 body {
-  background-color: #000;
   overflow-x: hidden;
+}
+
+canvas {
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1;
 }
 
 main {
   align-items: center;
+  background: rgba(0, 0, 0, 0);
   color: #fff;
   display: flex; /* prevents margin collapse */
   height: 100vh;
