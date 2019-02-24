@@ -35,9 +35,9 @@ header {
 }
 
 .brand {
-  color: #39b982;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
+  color: #fff;
+  font-family: "Trykker", cursive, sans-serif;
+  font-size: 1.05em;
   font-weight: 700;
   text-decoration: none;
 }
