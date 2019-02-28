@@ -18,7 +18,9 @@ function generateSprites() {
 
     // load texture
     let textureLoader = new THREE.TextureLoader();
-    let sprite1 = textureLoader.load("textures/sprites/spark1.png");
+    let sprite1 = textureLoader.load(
+      "endless-stars/textures/sprites/spark1.png"
+    );
 
     // configure material to apply
     let spriteMaterial = new THREE.PointsMaterial({
