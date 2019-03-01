@@ -1,7 +1,7 @@
 <template>
   <div id="contact-bar">
-    <div>
-      <a href="/">🖂</a>
+    <div id="contact-mail">
+      <button>🖂</button>
     </div>
     <div id="contact-linkedin">
       <a href="/">
@@ -22,6 +22,7 @@ export default {};
 
 <style scoped>
 #contact-bar {
+  align-items: center;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -35,13 +36,23 @@ export default {};
   width: 150px;
 }
 
-#contact-bar a {
+#contact-mail {
+}
+
+button {
+  background: green;
+  color: #fff;
+  font-size: 75px;
+  line-height: 100%;
+}
+
+a {
   color: #fff;
   font-size: 100px;
   text-decoration: none;
 }
 
-#contact-bar img {
+img {
   height: auto;
   width: 100%;
 }
