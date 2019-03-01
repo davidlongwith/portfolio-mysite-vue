@@ -5,12 +5,20 @@
         Contact
       </button>
     </div>
-    <div id="drawer-right"></div>
+    <div id="drawer-right">
+      <ContactBar />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import ContactBar from "@/components/ContactBar.vue";
+
+export default {
+  components: {
+    ContactBar
+  }
+};
 </script>
 
 <style scoped>
