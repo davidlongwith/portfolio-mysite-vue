@@ -1,5 +1,12 @@
 /*
  * Endless Stars - Main Application File
+ *
+ * Required files (in this order):
+ *  three/r95/three.min.js
+ *  three/stats.min.js
+ *  generate-sprites.js
+ *  application.js (this file)
+ *
  */
 
 // three.js
