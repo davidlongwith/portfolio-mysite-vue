@@ -75,7 +75,7 @@ export default {
   top: 50%;
   transform: translate(16em, -50%);
   transition: transform 0.3s ease;
-  width: 8em;
+  width: 108px;
 }
 
 #drawer-right.open {

@@ -32,11 +32,12 @@ export default {};
 }
 
 #contact-bar div {
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
 }
 
-#contact-mail {
+#contact-mail,
+#contact-linkedin {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -44,9 +45,12 @@ export default {};
 
 button {
   background: green;
+  border: 1px solid #fff;
+  border-radius: 10px;
   color: #fff;
-  font-size: 75px;
+  font-size: 60px;
   line-height: 100%;
+  padding: 10px;
 }
 
 a {
@@ -61,6 +65,6 @@ img {
 }
 
 #contact-linkedin {
-  padding: 20px;
+  padding: 18px;
 }
 </style>
