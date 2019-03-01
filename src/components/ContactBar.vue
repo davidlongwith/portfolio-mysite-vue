@@ -1,20 +1,18 @@
 <template>
   <div id="contact-bar">
-    <ul>
-      <li>
-        <a href="/">🖂</a>
-      </li>
-      <li>
-        <a href="/">
-          <img src="img/github/Octocat.png" />
-        </a>
-      </li>
-      <li>
-        <a href="/">
-          <img src="img/linkedin/In-2CRev-128px-R.png" />
-        </a>
-      </li>
-    </ul>
+    <div>
+      <a href="/">🖂</a>
+    </div>
+    <div id="contact-linkedin">
+      <a href="/">
+        <img src="img/linkedin/In-2CRev-128px-R.png" />
+      </a>
+    </div>
+    <div>
+      <a href="/">
+        <img src="img/github/Octocat.png" />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -32,12 +30,23 @@ export default {};
   width: 100%;
 }
 
-a {
-  font-size: 50px;
+#contact-bar div {
+  height: 150px;
+  width: 150px;
 }
 
-#contact-bar li img {
+#contact-bar a {
+  color: #fff;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+#contact-bar img {
   height: auto;
-  width: 100px;
+  width: 100%;
+}
+
+#contact-linkedin {
+  padding: 20px;
 }
 </style>
