@@ -63,12 +63,12 @@ export default {
 #drawer-left {
   background: #000;
   border: 1px solid red;
-  height: 65%;
+  height: auto;
   position: fixed;
   top: 50%;
   transform: translate(-16em, -50%);
   transition: transform 0.3s ease;
-  width: 16em;
+  width: 10em;
 }
 
 #drawer-left.open {

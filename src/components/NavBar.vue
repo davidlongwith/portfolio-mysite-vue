@@ -11,8 +11,26 @@ export default {};
 </script>
 
 <style scoped>
-nav.router-link-exact-active {
+nav {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  font-family: "Trykker", cursive, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 5em;
+  text-decoration: none;
+}
+
+nav a.router-link-exact-active {
+  background: #fff;
   color: #39b982;
-  border-bottom: solid 2px #39b982;
 }
 </style>

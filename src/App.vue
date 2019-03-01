@@ -26,7 +26,7 @@ export default {
 <style>
 html {
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 }
 *,
 *:before,
