@@ -2,6 +2,9 @@
   <div id="contact-bar">
     <ul>
       <li>
+        <a href="/">🖂</a>
+      </li>
+      <li>
         <a href="/">
           <img src="img/github/Octocat.png" />
         </a>
@@ -27,6 +30,10 @@ export default {};
   justify-content: center;
   text-align: center;
   width: 100%;
+}
+
+a {
+  font-size: 50px;
 }
 
 #contact-bar li img {
