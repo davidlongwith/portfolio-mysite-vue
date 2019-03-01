@@ -4,17 +4,17 @@
       <button id="side-button-left" class="drawer-button-left">Menu</button>
     </div>
     <div id="drawer-left">
-      <NavBar />
+      <MenuBar />
     </div>
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
+import MenuBar from "@/components/MenuBar.vue";
 
 export default {
   components: {
-    NavBar
+    MenuBar
   }
 };
 </script>
