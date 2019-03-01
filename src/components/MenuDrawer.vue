@@ -68,7 +68,7 @@ export default {
   top: 50%;
   transform: translate(-16em, -50%);
   transition: transform 0.3s ease;
-  width: 10em;
+  width: 8em;
 }
 
 #drawer-left.open {
