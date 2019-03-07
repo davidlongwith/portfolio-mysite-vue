@@ -5,12 +5,12 @@
     </div>
     <div id="contact-linkedin">
       <a href="/">
-        <img src="img/linkedin/In-2CRev-128px-R.png" />
+        <img src="img/linkedin/Logo-2CRev-128px-TM.png" />
       </a>
     </div>
     <div>
       <a href="/">
-        <img src="img/github/Octocat.png" />
+        <img src="img/github/GitHub_Logo_White.png" />
       </a>
     </div>
   </div>
