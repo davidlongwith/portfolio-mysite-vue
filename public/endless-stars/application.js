@@ -11,8 +11,11 @@
 
 // three.js
 let camera, scene, renderer;
+
+/*
 // fps monitor
 let stats;
+*/
 
 // camera settings
 const fov = 75;
@@ -46,11 +49,13 @@ function init() {
   renderer.setSize(window.innerWidth, window.innerHeight);
   document.body.appendChild(renderer.domElement);
 
+  /*
   // setup fps counter
 
   stats = new Stats();
   document.body.appendChild(stats.dom);
   window.addEventListener("resize", onWindowResize, false);
+  */
 }
 
 // Responsive
@@ -71,8 +76,10 @@ function animate() {
   // generate-sprites.js function
   spritesInMotion();
 
+  /*
   // update stats.js fps monitor
   stats.update();
+  */
 
   requestAnimationFrame(animate); // request a new frame at default 60fps
   renderer.render(scene, camera);
