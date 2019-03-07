@@ -25,8 +25,8 @@ export default {
  */
 
 .side-button-div {
-  --buttonWidth: 171px;
-  --buttonHeight: 55px;
+  --buttonWidth: 144px;
+  --buttonHeight: 48px;
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
