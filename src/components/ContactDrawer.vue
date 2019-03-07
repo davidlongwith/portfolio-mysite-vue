@@ -69,14 +69,14 @@ export default {
 #drawer-right {
   background: #000;
   background: rgba(0, 0, 0, 0.5);
-  border: none;
+  border: 1px solid red;
   height: auto;
   position: fixed;
   right: 0;
   top: 50%;
   transform: translate(16em, -50%);
   transition: transform 0.3s ease;
-  width: 108px;
+  width: 8em;
 }
 
 #drawer-right.open {

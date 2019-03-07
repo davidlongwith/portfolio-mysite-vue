@@ -1,14 +1,14 @@
 <template>
   <div id="contact-bar">
     <div id="contact-mail">
-      <button>🖂</button>
+      <button>Email</button>
     </div>
     <div id="contact-linkedin">
       <a href="/">
         <img src="img/linkedin/Logo-2CRev-128px-TM.png" />
       </a>
     </div>
-    <div>
+    <div id="contact-github">
       <a href="/">
         <img src="img/github/GitHub_Logo_White.png" />
       </a>
@@ -37,25 +37,25 @@ export default {};
 }
 
 #contact-mail,
-#contact-linkedin {
+#contact-linkedin,
+#contact-github {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 button {
-  background: green;
+  background: #004000;
   border: 1px solid #fff;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #fff;
-  font-size: 55px;
+  font-size: 1.6em;
   line-height: 100%;
-  padding: 10px;
+  padding: 12px;
 }
 
 a {
   color: #fff;
-  font-size: 100px;
   text-decoration: none;
 }
 
@@ -65,6 +65,5 @@ img {
 }
 
 #contact-linkedin {
-  padding: 18px;
 }
 </style>
