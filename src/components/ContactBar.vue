@@ -27,13 +27,14 @@ export default {};
   flex-direction: column;
   height: auto;
   justify-content: center;
+  padding: 5px;
   text-align: center;
   width: 100%;
 }
 
 #contact-bar div {
-  height: 120px;
-  width: 120px;
+  height: 5em;
+  width: 100%;
 }
 
 #contact-mail,
