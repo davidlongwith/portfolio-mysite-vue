@@ -27,7 +27,7 @@ export default {};
   flex-direction: column;
   height: auto;
   justify-content: center;
-  padding: 5px;
+  padding: 5px 10px;
   text-align: center;
   width: 100%;
 }
@@ -50,9 +50,9 @@ button {
   border: 1px solid #fff;
   border-radius: 5px;
   color: #fff;
-  font-size: 1.6em;
+  font-size: 1.5em;
   line-height: 100%;
-  padding: 12px;
+  padding: 10px 12px;
 }
 
 a {
