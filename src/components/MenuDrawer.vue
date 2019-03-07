@@ -63,6 +63,7 @@ export default {
 #drawer-left {
   background: #000;
   border: 1px solid #fff;
+  border-left: none;
   height: auto;
   position: fixed;
   top: 50%;

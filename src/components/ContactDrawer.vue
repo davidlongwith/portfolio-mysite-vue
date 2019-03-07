@@ -70,6 +70,7 @@ export default {
   background: #000;
   background: rgba(0, 0, 0, 0.5);
   border: 1px solid #fff;
+  border-right: none;
   height: auto;
   position: fixed;
   right: 0;
