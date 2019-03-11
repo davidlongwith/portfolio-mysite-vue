@@ -54,8 +54,10 @@ function init() {
 
   stats = new Stats();
   document.body.appendChild(stats.dom);
-  window.addEventListener("resize", onWindowResize, false);
   */
+
+  // initialize responsive resizing
+  window.addEventListener("resize", onWindowResize, false);
 }
 
 // Responsive
