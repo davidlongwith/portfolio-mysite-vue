@@ -18,10 +18,11 @@ div {
 }
 .home-intro-1 {
   font-size: 0.8em;
+  text-shadow: 0px 1px 2px #000, 0 0 0.2em #fff;
 }
 .home-intro-2 {
   color: blue;
   font-size: 1.8em;
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  text-shadow: 0px 1px 2px #fff, 0 0 1em blue, 0 0 0.2em blue;
 }
 </style>
