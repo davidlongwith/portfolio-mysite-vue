@@ -69,7 +69,7 @@ export default {
 #drawer-right {
   background: #000;
   background: rgba(0, 0, 0, 0.5);
-  border: 1px solid #fff;
+  border: none;
   border-right: none;
   height: auto;
   position: fixed;

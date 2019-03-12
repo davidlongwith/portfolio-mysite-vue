@@ -27,30 +27,26 @@ export default {};
   flex-direction: column;
   height: auto;
   justify-content: center;
-  padding: 5px 10px;
   text-align: center;
   width: 100%;
 }
 
 #contact-bar div {
-  height: 5em;
+  align-items: center;
+  background: #000;
+  border: 1px solid #fff;
+  display: flex;
+  height: 3.5em;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0 5px 0 15px;
   width: 100%;
 }
 
-#contact-mail,
-#contact-linkedin,
-#contact-github {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 #contact-mail a {
-  background: #004000;
-  border: 1px solid #fff;
-  border-radius: 5px;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.8em;
+  font-weight: bold;
   line-height: 100%;
   padding: 10px 12px;
 }
@@ -63,8 +59,5 @@ a {
 img {
   height: auto;
   width: 100%;
-}
-
-#contact-linkedin {
 }
 </style>
