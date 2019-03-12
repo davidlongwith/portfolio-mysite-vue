@@ -21,7 +21,8 @@ nav {
 }
 
 nav a {
-  background: none;
+  background: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.08);
   border-top: 1px solid #fff;
   color: #fff;
   font-family: "Trykker", cursive, sans-serif;
