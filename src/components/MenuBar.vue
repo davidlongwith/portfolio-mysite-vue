@@ -21,14 +21,13 @@ nav {
 }
 
 nav a {
-  background: rgb(0, 0, 0);
-  background: rgba(255, 255, 255, 0.08);
+  background: #000;
   border-top: 1px solid #fff;
   color: #fff;
   font-family: "Trykker", cursive, sans-serif;
   font-size: 1.3em;
   font-weight: 700;
-  line-height: 4em;
+  line-height: 5em;
   text-decoration: none;
 }
 
