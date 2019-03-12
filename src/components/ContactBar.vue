@@ -1,7 +1,7 @@
 <template>
   <div id="contact-bar">
     <div id="contact-mail">
-      <button>Email</button>
+      <a href="mailto: david@davidlongwith.com">Email</a>
     </div>
     <div id="contact-linkedin">
       <a href="/">
@@ -45,7 +45,7 @@ export default {};
   justify-content: center;
 }
 
-button {
+#contact-mail a {
   background: #004000;
   border: 1px solid #fff;
   border-radius: 5px;
