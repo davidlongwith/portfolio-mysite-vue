@@ -21,6 +21,8 @@ nav {
 }
 
 nav a {
+  background: none;
+  border-top: 1px solid #fff;
   color: #fff;
   font-family: "Trykker", cursive, sans-serif;
   font-size: 1.3em;
@@ -29,8 +31,12 @@ nav a {
   text-decoration: none;
 }
 
+nav a:nth-child(1) {
+  border-top: none;
+}
+
 nav a.router-link-exact-active {
   background: #fff;
-  color: #39b982;
+  color: rgb(0, 25, 0);
 }
 </style>
