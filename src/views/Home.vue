@@ -14,7 +14,13 @@ export default {};
 
 <style scoped>
 div {
+  font: 1rem Georgia, serif;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  div {
+    font-size: 1.3rem;
+  }
 }
 .home-intro-1 {
   font-size: 0.8em;
