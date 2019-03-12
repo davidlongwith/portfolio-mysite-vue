@@ -34,7 +34,7 @@ export default {};
 #contact-bar div {
   background: rgb(0, 25, 0);
   display: flex;
-  line-height: 4em;
+  line-height: 3em;
   margin: 20px 0;
   width: 100%;
 }
