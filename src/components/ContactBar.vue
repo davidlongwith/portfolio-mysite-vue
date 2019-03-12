@@ -55,7 +55,6 @@ a {
 }
 
 img {
-  height: ;
   vertical-align: middle;
   width: 100%;
 }
