@@ -32,7 +32,7 @@ export default {};
 }
 
 #contact-bar div {
-  background: rgb(1, 48, 22);
+  background: rgb(0, 25, 0);
   display: flex;
   line-height: 4em;
   margin: 20px 0;
@@ -47,6 +47,8 @@ export default {};
 
 a {
   border: 1px solid #fff;
+  border-radius: 15px 0 0 15px;
+  border-right: none;
   color: #fff;
   padding-left: 12px;
   padding-right: 3px;
