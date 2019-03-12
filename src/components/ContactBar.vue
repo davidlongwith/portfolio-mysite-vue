@@ -32,32 +32,31 @@ export default {};
 }
 
 #contact-bar div {
-  align-items: center;
-  background: #000;
-  border: 1px solid #fff;
+  background: rgb(1, 48, 22);
   display: flex;
-  height: 3.5em;
-  justify-content: center;
-  margin: 15px 0;
-  padding: 0 5px 0 15px;
+  line-height: 4em;
+  margin: 20px 0;
   width: 100%;
 }
 
 #contact-mail a {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: bold;
-  line-height: 100%;
-  padding: 10px 12px;
 }
 
 a {
+  border: 1px solid #fff;
   color: #fff;
+  padding-left: 12px;
+  padding-right: 3px;
   text-decoration: none;
+  width: 100%;
 }
 
 img {
-  height: auto;
+  height: ;
+  vertical-align: middle;
   width: 100%;
 }
 </style>
