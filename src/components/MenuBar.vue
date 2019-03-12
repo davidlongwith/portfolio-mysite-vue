@@ -25,7 +25,7 @@ nav a {
   border-top: 1px solid #fff;
   color: #fff;
   font-family: "Trykker", cursive, sans-serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 5em;
   text-decoration: none;
