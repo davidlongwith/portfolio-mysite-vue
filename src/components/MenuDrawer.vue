@@ -32,7 +32,7 @@ export default {
   transform: translateY(-50%);
 }
 
-@media (max-width: 960px), (min-width: 1440px) {
+@media (max-width: 960px), (min-width: 1439px) {
   .side-button-div {
     display: none;
   }
@@ -76,7 +76,7 @@ export default {
   transform: translate(0, -50%);
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
   #drawer-left {
     transform: translate(0, -50%);
   }

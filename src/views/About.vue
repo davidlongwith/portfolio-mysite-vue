@@ -8,4 +8,8 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+div {
+  border: 1px solid red;
+}
+</style>

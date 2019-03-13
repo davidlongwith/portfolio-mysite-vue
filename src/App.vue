@@ -56,6 +56,7 @@ canvas {
 main {
   align-items: center;
   background: rgba(0, 0, 0, 0);
+  border: 1px solid green;
   color: #fff;
   display: flex; /* prevents margin collapse */
   height: 100vh;

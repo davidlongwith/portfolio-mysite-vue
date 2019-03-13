@@ -24,7 +24,7 @@ header {
   width: 100%;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 479px) {
   header {
     font-size: 1.75rem;
   }
