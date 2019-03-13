@@ -56,10 +56,24 @@ canvas {
 main {
   align-items: center;
   background: rgba(0, 0, 0, 0);
-  border: 1px solid green;
   color: #fff;
   display: flex; /* prevents margin collapse */
   height: 100vh;
   justify-content: center;
+}
+.main-inner {
+  height: calc(100vh - 62px);
+  margin: 62px 0 0;
+  width: 100vw;
+}
+@media (min-width: 960px) and (max-width: 1439px) {
+  .main-inner {
+    margin: 62px 48px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .main-inner {
+    margin: 62px 8em 0;
+  }
 }
 </style>

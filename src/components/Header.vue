@@ -20,6 +20,7 @@ header {
   display: flex;
   font-size: 1.25rem;
   justify-content: space-between;
+  max-height: 62px;
   position: absolute;
   width: 100%;
 }
