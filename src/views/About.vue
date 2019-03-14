@@ -75,4 +75,8 @@ export default {};
 .content-block {
   color: #fff;
 }
+h2 {
+  border-bottom: 4px solid #57c4d0;
+  display: inline-block;
+}
 </style>
