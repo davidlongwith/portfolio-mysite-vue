@@ -15,14 +15,14 @@
     <div class="content-block">
       <h2>Skills</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Key Skills: Front-End Development, HTML, CSS, JavaScript, Responsive Web
+        Design, Git, Bash Command Line, Web Hosting(Cpanel, AWS Lightsail)
       </p>
+      <p>
+        Actively Learning: Front-End Framework Vue.js, Full-Stack Development
+        with Node.js, experimenting with Java and .NET
+      </p>
+      <p>Previous Exp: LAMP Stack, WordPress</p>
     </div>
     <div class="content-block">
       <h2>Education</h2>
@@ -39,14 +39,17 @@
     <div class="content-block">
       <h2>Experience</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Mobile Web Specialist
+        <br />April 2018 - October 2018 <br />6-month advanced web development
+        nanodegree by Udacity
       </p>
+      <p>
+        Grow with Google Developer Challenge Scholarship
+        <br />January 2018 - April 2018 (3-month) <br />Top 10% awarded full
+        scholarship to the Mobile Web Specialist nanodegree program by Udacity
+        in partnership with Google
+      </p>
+      <p></p>
     </div>
     <div class="content-block">
       <h2>Courses/Certifications</h2>
