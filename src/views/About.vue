@@ -14,15 +14,20 @@
     </div>
     <div class="content-block">
       <h2>Skills</h2>
+      <h3>Key Skills:</h3>
       <p>
-        Key Skills: Front-End Development, HTML, CSS, JavaScript, Responsive Web
-        Design, Git, Bash Command Line, Web Hosting(Cpanel, AWS Lightsail)
+        HTML, CSS, JavaScript, Responsive Web Design, Git/GitHub, Bash Command
+        Line, Web Hosting(Cpanel, AWS Lightsail)
       </p>
+      <h3>Actively Learning:</h3>
       <p>
-        Actively Learning: Front-End Framework Vue.js, Full-Stack Development
-        with Node.js, experimenting with Java and .NET
+        Front-End Framework Vue.js, Full-Stack Development with Node.js,
+        experimenting with Java and .NET
       </p>
-      <p>Previous Exp: LAMP Stack, WordPress</p>
+      <h3>Just for Fun:</h3>
+      <p>WebGL, Three.js Framework</p>
+      <h3>Previous Exp:</h3>
+      <p>LAMP Stack, WordPress(Genesis Framework, theme development)</p>
     </div>
     <div class="content-block">
       <h2>Education</h2>
@@ -75,6 +80,14 @@ h2 {
   border-bottom: 4px solid #57c4d0;
   display: inline-block;
   margin-bottom: 5px;
+}
+h3 {
+  color: #57c4d0;
+  font-weight: bold;
+  padding-left: 12px;
+}
+p {
+  padding-left: 24px;
 }
 #resume {
   height: 100px;
