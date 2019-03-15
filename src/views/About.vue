@@ -16,8 +16,9 @@
       <h2>Skills</h2>
       <h3>Key Skills:</h3>
       <p>
-        HTML, CSS, JavaScript, Responsive Web Design, Git/GitHub, Bash Command
-        Line, Web Hosting(Cpanel, AWS Lightsail)
+        HTML, CSS, JavaScript, Responsive Web Design, Progressive Web
+        Applications, Git/GitHub, Bash Command Line, Web Hosting(Cpanel, AWS
+        Lightsail)
       </p>
       <h3>Actively Learning:</h3>
       <p>
@@ -32,8 +33,8 @@
     <div class="content-block">
       <h2>Education</h2>
       <p>
-        Business Administration, Associate of Arts - AA
-        <br />Howard Community College <br />Graduated Spring 2014
+        Business Administration, Associate of Arts - AA <br />Howard Community
+        College <br />Graduate Spring 2014
       </p>
     </div>
     <div class="content-block">
