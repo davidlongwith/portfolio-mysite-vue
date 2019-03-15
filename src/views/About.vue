@@ -27,8 +27,8 @@
     <div class="content-block">
       <h2>Education</h2>
       <p>
-        Business Administration, Associate of Arts - AA <br />Howard Community
-        College <br />Graduated Spring 2014
+        Business Administration, Associate of Arts - AA
+        <br />Howard Community College <br />Graduated Spring 2014
       </p>
     </div>
     <div class="content-block">
@@ -67,9 +67,14 @@ export default {};
 .content-block {
   color: #fff;
 }
+.content-block img {
+  height: 48px;
+  width: 48px;
+}
 h2 {
   border-bottom: 4px solid #57c4d0;
   display: inline-block;
+  margin-bottom: 5px;
 }
 #resume {
   height: 100px;
