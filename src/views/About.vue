@@ -34,8 +34,8 @@
     <div class="content-block">
       <h2>Education</h2>
       <p>
-        Business Administration, Associate of Arts - AA
-        <br />Howard Community College <br />Graduated Spring 2014
+        Business Administration, Associate of Arts - AA <br />Howard Community
+        College <br />Graduated Spring 2014
       </p>
     </div>
     <div class="content-block">
@@ -52,11 +52,6 @@
         in partnership with Google
       </p>
       <p>Self-taught Web Developer <br />Since 2015</p>
-    </div>
-    <div class="content-block">
-      <h2>Courses/Certifications</h2>
-      <h3>Courses:</h3>
-      <p>Udacity - How to Use Git and GitHub</p>
     </div>
     <div id="resume" class="content-block"></div>
   </div>
