@@ -16,25 +16,26 @@
       <h2>Skills</h2>
       <h3>Key Skills:</h3>
       <p>
-        HTML, CSS, JavaScript, Responsive Web Design, Progressive Web
-        Applications, Git/GitHub, Bash Command Line, Web Hosting(Cpanel, AWS
-        Lightsail)
+        HTML/CSS &bull; JavaScript &bull; Responsive Web Design &bull;
+        Progressive Web Applications &bull; Git/GitHub &bull; Bash Command Line
+        &bull; Web Hosting(Cpanel, AWS Lightsail, Email)
       </p>
       <h3>Actively Learning:</h3>
       <p>
-        Front-End Framework Vue.js, Full-Stack Development with Node.js,
-        experimenting with Java and .NET
+        Front-End Frameworks - Vue, React
+        <br />Full-Stack Development with Node.js, experimenting with Java and
+        .NET
       </p>
-      <h3>Just for Fun:</h3>
-      <p>WebGL, Three.js Framework</p>
       <h3>Previous Exp:</h3>
-      <p>LAMP Stack, WordPress(Genesis Framework, theme development)</p>
+      <p>LAMP Stack &bull; WordPress(Genesis Framework, theme development)</p>
+      <h3>Just for Fun:</h3>
+      <p>WebGL &bull; Three.js Framework</p>
     </div>
     <div class="content-block">
       <h2>Education</h2>
       <p>
-        Business Administration, Associate of Arts - AA <br />Howard Community
-        College <br />Graduate Spring 2014
+        Business Administration, Associate of Arts - AA
+        <br />Howard Community College <br />Graduated Spring 2014
       </p>
     </div>
     <div class="content-block">
