@@ -17,6 +17,7 @@ export default {};
 <style scoped>
 header {
   align-items: center;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   font-size: 1.25rem;
   justify-content: space-between;
