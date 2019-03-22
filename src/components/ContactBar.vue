@@ -9,7 +9,7 @@
       </a>
     </div>
     <div id="contact-github">
-      <a href="/">
+      <a href="https://github.com/davidlongwith" target="_blank">
         <img src="img/github/GitHub_Logo_White.png" />
       </a>
     </div>
