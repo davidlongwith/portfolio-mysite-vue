@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-  background: none;
+  background: rgb(25, 25, 25);
   border-top: 1px solid #fff;
   color: #fff;
   font-family: "Trykker", cursive, sans-serif;
@@ -37,6 +37,6 @@ nav a:nth-child(1) {
 
 nav a.router-link-exact-active {
   background: #fff;
-  color: rgb(0, 25, 0);
+  color: rgb(25, 25, 25);
 }
 </style>
