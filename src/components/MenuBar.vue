@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav aria-label="Main Menu">
     <ul>
       <li>
         <router-link :to="{ name: 'home' }">Home</router-link>
@@ -37,6 +37,7 @@ a {
   background: rgb(25, 25, 25);
   border-top: 1px solid #fff;
   color: #fff;
+  display: block;
   font-family: "Trykker", cursive, sans-serif;
   font-size: 1.5em;
   font-weight: 700;
@@ -44,11 +45,11 @@ a {
   text-decoration: none;
 }
 
-nav a:nth-child(1) {
+a:nth-child(1) {
   border-top: none;
 }
 
-nav a.router-link-exact-active {
+a.router-link-exact-active {
   background: #fff;
   color: rgb(25, 25, 25);
 }

@@ -1,11 +1,11 @@
 <template>
   <header>
-    <button class="drawer-button-left">☰</button>
+    <button class="drawer-button-left" aria-label="Menu">☰</button>
     <!-- Trigram for Heaven - unicode number U+2630 -->
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
     </div>
-    <button class="drawer-button-right">🖂</button>
+    <button class="drawer-button-right" aria-label="Contact">🖂</button>
     <!-- Back of Envelope - unicode number U+1F582 -->
   </header>
 </template>
