@@ -1,8 +1,16 @@
 <template>
   <nav>
-    <router-link :to="{ name: 'home' }">Home</router-link>
-    <router-link :to="{ name: 'about' }">About</router-link>
-    <router-link :to="{ name: 'projects' }">Projects</router-link>
+    <ul>
+      <li>
+        <router-link :to="{ name: 'home' }">Home</router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'about' }">About</router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'projects' }">Projects</router-link>
+      </li>
+    </ul>
   </nav>
 </template>
 
@@ -20,7 +28,12 @@ nav {
   width: 100%;
 }
 
-nav a {
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
   background: rgb(25, 25, 25);
   border-top: 1px solid #fff;
   color: #fff;
