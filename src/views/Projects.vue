@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Projects</h1>
+    <a href="https://github.com/davidlongwith" target="_blank"
+      >View Projects on GitHub</a
+    >
   </div>
 </template>
 
@@ -8,4 +10,15 @@
 export default {};
 </script>
 
-<style scoped></style>
+<style scoped>
+a {
+  background: green;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1.75em;
+  font-weight: bold;
+  padding: 12px;
+  text-decoration: none;
+}
+</style>
