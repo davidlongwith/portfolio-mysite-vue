@@ -1,5 +1,5 @@
 <template>
-  <nav aria-label="Main Menu">
+  <nav aria-label="Main Menu" role="navigation">
     <ul>
       <li>
         <router-link :to="{ name: 'home' }">Home</router-link>

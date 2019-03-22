@@ -4,12 +4,20 @@
       <a href="mailto: david@davidlongwith.com">Email</a>
     </div>
     <div id="contact-linkedin">
-      <a href="https://www.linkedin.com/in/davidlongwith" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/davidlongwith"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
         <img src="img/linkedin/Logo-2CRev-128px-TM.png" />
       </a>
     </div>
     <div id="contact-github">
-      <a href="https://github.com/davidlongwith" target="_blank">
+      <a
+        href="https://github.com/davidlongwith"
+        target="_blank"
+        aria-label="GitHub"
+      >
         <img src="img/github/GitHub_Logo_White.png" />
       </a>
     </div>
