@@ -9,7 +9,7 @@
         target="_blank"
         aria-label="LinkedIn"
       >
-        <img src="img/linkedin/Logo-2CRev-128px-TM.png" />
+        <img src="img/linkedin/Logo-2CRev-128px-TM.png" alt="LinkedIn Logo" />
       </a>
     </div>
     <div id="contact-github">
@@ -18,7 +18,7 @@
         target="_blank"
         aria-label="GitHub"
       >
-        <img src="img/github/GitHub_Logo_White.png" />
+        <img src="img/github/GitHub_Logo_White.png" alt="GitHub Logo" />
       </a>
     </div>
   </div>
