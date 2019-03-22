@@ -16,17 +16,17 @@ new Vue({
  *
  */
 
-// Get buttons and drawers
+// Left
+
+// Get buttons and drawers (left side)
 const leftDrawerButtons = document.querySelectorAll(".drawer-button-left");
 const leftDrawer = document.querySelector("#drawer-left");
-
-const rightDrawerButtons = document.querySelectorAll(".drawer-button-right");
-const rightDrawer = document.querySelector("#drawer-right");
 
 // click button(s) to show left side drawer
 for (let i = 0; i < leftDrawerButtons.length; i++) {
   leftDrawerButtons[i].addEventListener("click", function(e) {
     leftDrawer.classList.toggle("open");
+    document.getElementById("side-button-left").style.display = "none";
     e.stopPropagation();
   });
 }
@@ -34,7 +34,14 @@ for (let i = 0; i < leftDrawerButtons.length; i++) {
 // click anywhere to close left drawer
 window.addEventListener("click", function() {
   leftDrawer.classList.remove("open");
+  document.getElementById("side-button-left").style.display = "inline-block";
 });
+
+// Right
+
+// Get buttons and drawers (right side)
+const rightDrawerButtons = document.querySelectorAll(".drawer-button-right");
+const rightDrawer = document.querySelector("#drawer-right");
 
 // click button(s) to show right side drawer
 for (let i = 0; i < rightDrawerButtons.length; i++) {

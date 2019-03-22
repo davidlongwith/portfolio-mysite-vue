@@ -39,7 +39,8 @@ export default {
 }
 
 #side-button-left {
-  background: none;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   border-top: none;
   color: #fff;
   font-size: 1.2em;
