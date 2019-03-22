@@ -33,9 +33,16 @@ ul {
   padding: 0;
 }
 
+li {
+  border-top: 1px solid #fff;
+}
+
+li:nth-child(1) {
+  border-top: none;
+}
+
 a {
   background: rgb(25, 25, 25);
-  border-top: 1px solid #fff;
   color: #fff;
   display: block;
   font-family: "Trykker", cursive, sans-serif;
@@ -43,10 +50,6 @@ a {
   font-weight: 700;
   line-height: 5em;
   text-decoration: none;
-}
-
-a:nth-child(1) {
-  border-top: none;
 }
 
 a.router-link-exact-active {
