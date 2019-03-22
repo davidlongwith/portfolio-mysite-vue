@@ -48,7 +48,7 @@ a {
   font-family: "Trykker", cursive, sans-serif;
   font-size: 1.5em;
   font-weight: 700;
-  line-height: 5em;
+  line-height: 4.5em;
   text-decoration: none;
 }
 
