@@ -4,7 +4,7 @@
       <a href="mailto: david@davidlongwith.com">Email</a>
     </div>
     <div id="contact-linkedin">
-      <a href="/">
+      <a href="https://www.linkedin.com/in/davidlongwith" target="_blank">
         <img src="img/linkedin/Logo-2CRev-128px-TM.png" />
       </a>
     </div>
