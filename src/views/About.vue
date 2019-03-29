@@ -3,13 +3,12 @@
     <div class="content-block">
       <h2>Summary</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Seasoned Web Developer with a focus on front-end development. Skilled in
+        creating responsive web sites &amp; applications to run on any device.
+        2018 Grow with Google scholarship recipient and graduate of the Mobile
+        Web Specialist Nanodegree program by Udacity. Strong business background
+        with an Associate of Arts - AA degree in Business Administration from
+        Howard Community College.
       </p>
     </div>
     <div class="content-block">
@@ -17,14 +16,14 @@
       <h3>Key Skills:</h3>
       <p>
         HTML/CSS &bull; JavaScript &bull; Responsive Web Design &bull;
-        Progressive Web Applications &bull; Git/GitHub &bull; Bash Command Line
-        &bull; Web Hosting(Cpanel, AWS Lightsail, Email)
+        Progressive Web Applications &bull; Git/Git Bash &bull; Web
+        Hosting(Cpanel, AWS Lightsail)
       </p>
-      <h3>Actively Learning:</h3>
+      <h3>Current Focus:</h3>
       <p>
-        Front-End Frameworks - Vue, React
-        <br />Full-Stack Development with Node.js, experimenting with Java and
-        .NET
+        Mastering JavaScript
+        <br />Front-End Frameworks - Vue, React <br />Full-Stack Development
+        with Node.js
       </p>
       <h3>Previous Exp:</h3>
       <p>LAMP Stack &bull; WordPress(Genesis Framework, theme development)</p>
@@ -34,8 +33,8 @@
     <div class="content-block">
       <h2>Education</h2>
       <p>
-        Business Administration, Associate of Arts - AA <br />Howard Community
-        College <br />Graduated Spring 2014
+        Business Administration, Associate of Arts - AA
+        <br />Howard Community College <br />Graduated Spring 2014
       </p>
     </div>
     <div class="content-block">
@@ -51,7 +50,10 @@
         scholarship to the Mobile Web Specialist nanodegree program by Udacity
         in partnership with Google
       </p>
-      <p>Self-taught Web Developer <br />Since 2015</p>
+      <p>
+        Self-taught Web Developer
+        <br />Since 2015
+      </p>
     </div>
     <div id="resume" class="content-block"></div>
   </div>
