@@ -1,7 +1,8 @@
 <template>
   <header>
-    <button class="drawer-button-left" aria-label="Menu">☰</button>
-    <!-- Trigram for Heaven - unicode number U+2630 -->
+    <button class="drawer-button-left" aria-label="Menu">
+      <img src="img/icons/trigram_for_heaven.svg" alt="Menu" />
+    </button>
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
     </div>
@@ -61,5 +62,11 @@ header button {
   header > button {
     display: none;
   }
+}
+
+button img {
+  color: #fff;
+  height: 50px;
+  width: 50px;
 }
 </style>
