@@ -1,12 +1,7 @@
 <template>
   <header>
     <button class="drawer-button-left" aria-label="Menu">
-      <img
-        svg-inline
-        class="icon"
-        src="../assets/trigram_for_heaven.svg"
-        alt="Menu"
-      />
+      <img svg-inline class="icon" src="../assets/star-full.svg" alt="Menu" />
     </button>
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
@@ -72,7 +67,5 @@ header button {
 
 .icon {
   fill: orange;
-  height: 500px;
-  width: 500px;
 }
 </style>
