@@ -39,11 +39,11 @@ header {
 }
 
 header button {
-  background: blue;
+  background: none;
   border: none;
   color: #fff;
   height: 50px;
-  margin: 0;
+  margin: 0 3%;
   padding: 0;
   width: 50px;
 }
