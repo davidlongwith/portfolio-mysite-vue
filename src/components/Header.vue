@@ -1,7 +1,12 @@
 <template>
   <header>
     <button class="drawer-button-left" aria-label="Menu">
-      <img svg-inline class="icon" src="../assets/star-full.svg" alt="Menu" />
+      <img
+        svg-inline
+        class="header-icon"
+        src="../assets/iconfinder_menu.svg"
+        alt="Menu"
+      />
     </button>
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
@@ -33,18 +38,6 @@ header {
   }
 }
 
-#header-brand {
-  padding: 10px 0;
-}
-
-.brand {
-  color: #fff;
-  font-family: "Trykker", cursive, sans-serif;
-  font-size: 1.05em;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 header button {
   background: blue;
   border: none;
@@ -53,6 +46,12 @@ header button {
   margin: 0;
   padding: 0;
   width: 50px;
+}
+
+.header-icon {
+  fill: #fff;
+  height: auto;
+  width: 100%;
 }
 
 @media (min-width: 960px) {
@@ -65,7 +64,15 @@ header button {
   }
 }
 
-.icon {
-  fill: orange;
+#header-brand {
+  padding: 10px 0;
+}
+
+.brand {
+  color: #fff;
+  font-family: "Trykker", cursive, sans-serif;
+  font-size: 1.05em;
+  font-weight: 700;
+  text-decoration: none;
 }
 </style>
