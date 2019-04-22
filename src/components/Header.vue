@@ -33,17 +33,11 @@ header {
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   justify-content: space-between;
   max-height: 62px;
   position: absolute;
   width: 100%;
-}
-
-@media (min-width: 479px) {
-  header {
-    font-size: 1.75rem;
-  }
 }
 
 header button {

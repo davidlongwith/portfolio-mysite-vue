@@ -17,7 +17,7 @@ div {
   font: 1rem Georgia, serif;
   text-align: center;
 }
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   div {
     font-size: 1.3rem;
   }

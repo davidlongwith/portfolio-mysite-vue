@@ -26,7 +26,12 @@ export default {
 <style>
 html {
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 14px;
+}
+@media (min-width: 550px) {
+  html {
+    font-size: 18px;
+  }
 }
 *,
 *:before,
@@ -61,16 +66,19 @@ main {
   height: 100vh;
   justify-content: center;
 }
+
 .main-inner {
   height: calc(100vh - 62px);
   margin: 62px 0 0;
   width: 100vw;
 }
+
 @media (min-width: 960px) and (max-width: 1439px) {
   .main-inner {
     margin: 62px 48px 0;
   }
 }
+
 @media (min-width: 1440px) {
   .main-inner {
     margin: 62px 8em 0;
