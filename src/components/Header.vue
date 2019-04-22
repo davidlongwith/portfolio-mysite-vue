@@ -59,7 +59,7 @@ header button {
 .header-icon {
   fill: #fff;
   height: auto;
-  width: 100%;
+  width: 85%;
 }
 
 @media (min-width: 960px) {
