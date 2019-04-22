@@ -1,6 +1,7 @@
 <template>
   <header>
     <button class="drawer-button-left" aria-label="Menu">
+      <!-- using "vue-svg-inline-loader" for svg webpack compatability -->
       <img
         svg-inline
         class="header-icon"
@@ -11,8 +12,15 @@
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
     </div>
-    <button class="drawer-button-right" aria-label="Contact">🖂</button>
-    <!-- Back of Envelope - unicode number U+1F582 -->
+    <button class="drawer-button-right" aria-label="Contact">
+      <!-- using "vue-svg-inline-loader" for svg webpack compatability -->
+      <img
+        svg-inline
+        class="header-icon"
+        src="../assets/iconfinder_contact.svg"
+        alt="Contact"
+      />
+    </button>
   </header>
 </template>
 
