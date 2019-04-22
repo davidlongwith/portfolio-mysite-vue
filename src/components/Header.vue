@@ -1,7 +1,12 @@
 <template>
   <header>
     <button class="drawer-button-left" aria-label="Menu">
-      <MenuIcon class="header-icons" />
+      <img
+        svg-inline
+        class="icon"
+        src="../assets/trigram_for_heaven.svg"
+        alt="Menu"
+      />
     </button>
     <div id="header-brand">
       <router-link to="/" class="brand">davidlongwith.com</router-link>
@@ -12,12 +17,7 @@
 </template>
 
 <script>
-import MenuIcon from "../assets/trigram_for_heaven.svg";
-export default {
-  components: {
-    MenuIcon
-  }
-};
+export default {};
 </script>
 
 <style scoped>
@@ -51,12 +51,13 @@ header {
 }
 
 header button {
-  background: #fff;
+  background: blue;
   border: none;
   color: #fff;
-  font-size: 1.4em;
+  height: 50px;
   margin: 0;
-  padding: 0 18px;
+  padding: 0;
+  width: 50px;
 }
 
 @media (min-width: 960px) {
@@ -69,8 +70,9 @@ header button {
   }
 }
 
-.header-icons {
-  height: 50px;
-  width: 50px;
+.icon {
+  fill: orange;
+  height: 500px;
+  width: 500px;
 }
 </style>
