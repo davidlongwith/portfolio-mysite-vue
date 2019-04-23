@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <a href="https://github.com/davidlongwith" target="_blank"
-      >View Projects on GitHub</a
-    >
+  <div class="main-inner">
+    <div class="projects-page">
+      <p>View Projects on GitHub</p>
+      <a href="https://github.com/davidlongwith" target="_blank">
+        <img src="img/github/Octocat-200px.png" alt="GitHub Octocat" />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -11,14 +14,21 @@ export default {};
 </script>
 
 <style scoped>
+.projects-page {
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
 a {
-  background: green;
-  border: 1px solid #fff;
-  border-radius: 15px;
-  color: #fff;
-  font-size: 1.75em;
-  font-weight: bold;
-  padding: 12px;
+  background: none;
   text-decoration: none;
+  width: 150px;
+}
+
+img {
+  width: 150px;
 }
 </style>
