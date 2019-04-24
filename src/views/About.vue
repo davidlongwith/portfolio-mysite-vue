@@ -13,6 +13,18 @@
     </div>
     <h2>Skills</h2>
     <div class="content-block">
+      <h3>HTML/CSS</h3>
+      <ul>
+        <li>semantic html</li>
+        <li>responsive web design</li>
+      </ul>
+      <h3>JavaScript</h3>
+      <ul>
+        <li>ECMAScript 2015+</li>
+        <li>jQuery</li>
+        <li>Vue (beginner)</li>
+        <li>Node.js (beginner)</li>
+      </ul>
       <h3>Key Skills:</h3>
       <p>
         HTML/CSS &bull; JavaScript &bull; Responsive Web Design &bull;
@@ -102,9 +114,14 @@ h2 {
   margin-bottom: 5px;
 }
 
-h3 {
+.content-block h3 {
   color: #57c4d0;
   font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.content-block ul {
+  margin: 0.5em 0;
 }
 
 #resume {
