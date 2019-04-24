@@ -1,7 +1,7 @@
 <template>
   <div class="main-inner">
+    <h2>Summary</h2>
     <div class="content-block">
-      <h2>Summary</h2>
       <p>
         Seasoned Web Developer with a focus on front-end development. Skilled in
         creating responsive web sites &amp; applications to run on any device.
@@ -11,8 +11,8 @@
         Howard Community College.
       </p>
     </div>
+    <h2>Skills</h2>
     <div class="content-block">
-      <h2>Skills</h2>
       <h3>Key Skills:</h3>
       <p>
         HTML/CSS &bull; JavaScript &bull; Responsive Web Design &bull;
@@ -30,15 +30,15 @@
       <h3>Just for Fun:</h3>
       <p>WebGL &bull; Three.js Framework</p>
     </div>
+    <h2>Education</h2>
     <div class="content-block">
-      <h2>Education</h2>
       <p>
         Business Administration, Associate of Arts - AA
         <br />Howard Community College <br />Graduated Spring 2014
       </p>
     </div>
+    <h2>Experience</h2>
     <div class="content-block">
-      <h2>Experience</h2>
       <p>
         Mobile Web Specialist
         <br />April 2018 - October 2018 <br />6-month advanced web development
@@ -65,29 +65,48 @@ export default {};
 
 <style scoped>
 .main-inner {
-  font-size: 1.2rem;
-  padding: 2em 3em 0;
+  font-size: 1rem;
+  padding: 0 0.5em;
 }
+
 .content-block {
   color: #fff;
+  padding-bottom: 10px;
 }
+
+@media (min-width: 600px) {
+  .main-inner {
+    font-size: 1.2rem;
+    padding: 2em 2em 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .main-inner {
+    font-size: 1.3rem;
+    padding: 2em 3em 0;
+  }
+  .content-block {
+    padding-left: 1em;
+  }
+}
+
 .content-block img {
   height: 48px;
   width: 48px;
 }
+
 h2 {
   border-bottom: 4px solid #57c4d0;
   display: inline-block;
   margin-bottom: 5px;
 }
+
 h3 {
   color: #57c4d0;
   font-weight: bold;
-  padding-left: 12px;
 }
-p {
-  padding-left: 24px;
-}
+
 #resume {
   height: 100px;
 }

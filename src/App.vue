@@ -28,7 +28,7 @@ html {
   box-sizing: border-box;
   font-size: 14px;
 }
-@media (min-width: 550px) {
+@media (min-width: 480px) {
   html {
     font-size: 18px;
   }
