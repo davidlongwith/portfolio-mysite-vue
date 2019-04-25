@@ -3,12 +3,12 @@
     <h2>Summary</h2>
     <div class="content-block">
       <p>
-        Seasoned Web Developer with a focus on front-end development. Skilled in
-        creating responsive web sites &amp; applications to run on any device.
-        2018 Grow with Google scholarship recipient and graduate of the Mobile
-        Web Specialist Nanodegree program by Udacity. Strong business background
-        with an Associate of Arts - AA degree in Business Administration from
-        Howard Community College.
+        Seasoned Web Developer with a focus on front-end development.
+        Experienced in all stages of web site &amp; application development from
+        concept to deployment. 2018 Grow with Google scholarship recipient and
+        graduate of the Mobile Web Specialist Nanodegree program by Udacity.
+        Strong business background with an Associate of Arts - AA degree in
+        Business Administration from Howard Community College.
       </p>
     </div>
     <h2>Technical Skills</h2>
