@@ -11,17 +11,21 @@
         Howard Community College.
       </p>
     </div>
-    <h2>Key Skills</h2>
+    <h2>Technical Skills</h2>
     <div class="content-block">
       <ul>
         <li><span>HTML/CSS</span> - semantic html, responsive web design</li>
         <li><span>JavaScript</span> - ECMAScript 2015+ (ES6), jQuery</li>
         <li><span>Vue.js</span> - Vue CLI, learning in progress...</li>
         <li><span>Node.js</span> - npm, front-end related tasks</li>
-        <li><span>Git/Git Bash</span> - Bash Command Line</li>
-        <li><span>LAMP Stack</span> - PHP/MySQL, WordPress</li>
+        <li><span>Git/Git Bash</span> - version control, Git command line</li>
         <li><span>Web Hosting</span> - Cpanel, AWS</li>
-        <li><span>WebGL</span> - Three.js Framework, just for fun</li>
+        <li>
+          <span>LAMP Stack</span> - PHP/MySQL (intermediate, especially
+          WordPress related)
+        </li>
+        <li><span>WordPress</span> - Genesis Framework, theme development</li>
+        <li><span>WebGL</span> - Three.js Framework, just for fun :)</li>
       </ul>
     </div>
     <h2>Education</h2>
