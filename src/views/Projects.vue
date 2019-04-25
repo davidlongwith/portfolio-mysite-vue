@@ -3,7 +3,7 @@
     <div class="projects-page">
       <p>View Projects on GitHub</p>
       <a href="https://github.com/davidlongwith" target="_blank">
-        <img src="img/github/Octocat-200px.png" alt="GitHub Octocat" />
+        <img src="img/github/Octocat-200px.png" alt="GitHub Octocat Logo" />
       </a>
     </div>
   </div>
