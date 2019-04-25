@@ -11,10 +11,23 @@
         Howard Community College.
       </p>
     </div>
-    <h2>Skills</h2>
+    <h2>Key Skills</h2>
     <div class="content-block">
-      <h3>HTML/CSS</h3>
       <ul>
+        <li><span>HTML/CSS</span> - semantic html, responsive web design</li>
+        <li><span>JavaScript</span> - ECMAScript 2015+ (ES6)</li>
+        <li>
+          <span></span>
+        </li>
+        <li>
+          <span></span>
+        </li>
+        <li>
+          <span></span>
+        </li>
+        <li>
+          <span></span>
+        </li>
         <li>semantic html</li>
         <li>responsive web design</li>
       </ul>
@@ -121,7 +134,19 @@ h2 {
 }
 
 .content-block ul {
+  list-style: none;
   margin: 0.5em 0;
+  padding-left: 0;
+}
+
+/* list-style: none accessibility fix for Safari (Mozilla.org) */
+.content-block ul li::before {
+  content: "\200B";
+}
+
+.content-block ul li span {
+  color: #57c4d0;
+  font-size: 1.2em;
 }
 
 #resume {
