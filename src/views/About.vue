@@ -15,45 +15,14 @@
     <div class="content-block">
       <ul>
         <li><span>HTML/CSS</span> - semantic html, responsive web design</li>
-        <li><span>JavaScript</span> - ECMAScript 2015+ (ES6)</li>
-        <li>
-          <span></span>
-        </li>
-        <li>
-          <span></span>
-        </li>
-        <li>
-          <span></span>
-        </li>
-        <li>
-          <span></span>
-        </li>
-        <li>semantic html</li>
-        <li>responsive web design</li>
+        <li><span>JavaScript</span> - ECMAScript 2015+ (ES6), jQuery</li>
+        <li><span>Vue.js</span> - Vue CLI, learning in progress...</li>
+        <li><span>Node.js</span> - npm, front-end related tasks</li>
+        <li><span>Git/Git Bash</span> - Bash Command Line</li>
+        <li><span>LAMP Stack</span> - PHP/MySQL (intermediate), WordPress</li>
+        <li><span>Web Hosting</span> - Cpanel, AWS</li>
+        <li><span>WebGL</span> - Three.js Framework, just for fun</li>
       </ul>
-      <h3>JavaScript</h3>
-      <ul>
-        <li>ECMAScript 2015+</li>
-        <li>jQuery</li>
-        <li>Vue (beginner)</li>
-        <li>Node.js (beginner)</li>
-      </ul>
-      <h3>Key Skills:</h3>
-      <p>
-        HTML/CSS &bull; JavaScript &bull; Responsive Web Design &bull;
-        Progressive Web Applications &bull; Git/Git Bash &bull; Web
-        Hosting(Cpanel, AWS Lightsail)
-      </p>
-      <h3>Current Focus:</h3>
-      <p>
-        Mastering JavaScript
-        <br />Front-End Frameworks - Vue, React <br />Full-Stack Development
-        with Node.js
-      </p>
-      <h3>Previous Exp:</h3>
-      <p>LAMP Stack &bull; WordPress(Genesis Framework, theme development)</p>
-      <h3>Just for Fun:</h3>
-      <p>WebGL &bull; Three.js Framework</p>
     </div>
     <h2>Education</h2>
     <div class="content-block">
@@ -142,6 +111,10 @@ h2 {
 /* list-style: none accessibility fix for Safari (Mozilla.org) */
 .content-block ul li::before {
   content: "\200B";
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 .content-block ul li span {
