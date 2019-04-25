@@ -19,7 +19,7 @@
         <li><span>Vue.js</span> - Vue CLI, learning in progress...</li>
         <li><span>Node.js</span> - npm, front-end related tasks</li>
         <li><span>Git/Git Bash</span> - Bash Command Line</li>
-        <li><span>LAMP Stack</span> - PHP/MySQL (intermediate), WordPress</li>
+        <li><span>LAMP Stack</span> - PHP/MySQL, WordPress</li>
         <li><span>Web Hosting</span> - Cpanel, AWS</li>
         <li><span>WebGL</span> - Three.js Framework, just for fun</li>
       </ul>
@@ -85,6 +85,13 @@ export default {};
   }
 }
 
+@media (min-width: 1440px) {
+  .main-inner {
+    font-size: 1.7rem;
+    padding: 2em 1.5em 0;
+  }
+}
+
 .content-block img {
   height: 48px;
   width: 48px;
@@ -114,7 +121,7 @@ h2 {
 }
 
 li {
-  margin-bottom: 5px;
+  margin-top: 0.75em;
 }
 
 .content-block ul li span {
