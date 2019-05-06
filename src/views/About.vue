@@ -16,6 +16,7 @@
       <ul>
         <li><span>HTML/CSS</span> - semantic html, responsive web design</li>
         <li><span>JavaScript</span> - ECMAScript 2015+ (ES6), jQuery</li>
+        <li><span>React</span> - learning in progress...</li>
         <li><span>Vue.js</span> - Vue CLI, learning in progress...</li>
         <li><span>Node.js</span> - npm, front-end related tasks</li>
         <li><span>Git/Git Bash</span> - version control, Git command line</li>
