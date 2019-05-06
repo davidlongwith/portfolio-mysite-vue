@@ -91,8 +91,8 @@ export default {};
 
 @media (min-width: 1440px) {
   .main-inner {
-    font-size: 1.7rem;
-    padding: 2em 1.5em 0;
+    font-size: 1.4rem;
+    padding: 2em 3.5em 0;
   }
 }
 
@@ -130,7 +130,7 @@ li {
 
 .content-block ul li span {
   color: #57c4d0;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 #resume {

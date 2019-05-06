@@ -26,7 +26,7 @@ export default {
 <style>
 html {
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 15px;
 }
 @media (min-width: 480px) {
   html {
