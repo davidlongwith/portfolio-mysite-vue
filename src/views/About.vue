@@ -38,6 +38,11 @@
     <h2>Experience</h2>
     <div class="content-block">
       <p>
+        React Nano
+        <br />April 2019 - Present <br />Professional React Developer nanodegree
+        by Udacity
+      </p>
+      <p>
         Mobile Web Specialist
         <br />April 2018 - October 2018 <br />6-month advanced web development
         nanodegree by Udacity
