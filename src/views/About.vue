@@ -1,7 +1,7 @@
 <template>
   <div class="main-inner">
     <h2>Summary</h2>
-    <div class="content-block">
+    <div id="summary" class="content-block">
       <p>
         Seasoned Web Developer with a focus on front-end development.
         Experienced in all stages of web site &amp; application development from
@@ -136,6 +136,10 @@ li {
 
 .content-block ul li span {
   color: #57c4d0;
+  font-size: 1.1em;
+}
+
+#summary {
   font-size: 1.1em;
 }
 
