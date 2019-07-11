@@ -58,6 +58,16 @@ canvas {
   z-index: -1;
 }
 
+#no-canvas-background {
+  background: #000;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -2;
+}
+
 main {
   align-items: center;
   background: rgba(0, 0, 0, 0);
