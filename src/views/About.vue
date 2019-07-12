@@ -30,36 +30,33 @@
       </ul>
     </div>
     <h2>Education</h2>
-    <div class="content-block">
+    <div id="edu-items" class="content-block">
+      <h3>Business Administration, Associate of Arts - AA</h3>
       <p>
-        Business Administration, Associate of Arts - AA
-        <br />Howard Community College <br />Graduated Spring 2014
+        Howard Community College
+        <br />Graduated Spring 2014
       </p>
     </div>
     <h2>Experience</h2>
-    <div class="content-block">
+    <div id="exp-items" class="content-block">
+      <h3>React Nano</h3>
       <p>
-        <span class="job-title">React Nano</span>
-        <br />April 2019 - Present <br />Professional React Developer nanodegree
-        by Udacity
+        April 2019 - Present
+        <br />Professional React Developer nanodegree by Udacity
       </p>
+      <h3>Mobile Web Specialist</h3>
       <p>
-        <span class="job-title">Mobile Web Specialist</span>
-        <br />April 2018 - October 2018 <br />6-month advanced web development
-        nanodegree by Udacity
+        April 2018 - October 2018
+        <br />6-month advanced web development nanodegree by Udacity
       </p>
+      <h3>Grow with Google Developer Challenge Scholarship</h3>
       <p>
-        <span class="job-title"
-          >Grow with Google Developer Challenge Scholarship</span
-        >
-        <br />January 2018 - April 2018 (3-month) <br />Top 10% awarded full
-        scholarship to the Mobile Web Specialist nanodegree program by Udacity
-        in partnership with Google
+        January 2018 - April 2018 (3-month)
+        <br />Top 10% awarded full scholarship to the Mobile Web Specialist
+        nanodegree program by Udacity in partnership with Google
       </p>
-      <p>
-        <span class="job-title">Self-taught Web Developer</span>
-        <br />Since 2015
-      </p>
+      <h3>Self-taught Web Developer</h3>
+      <p>Since 2015</p>
     </div>
     <div id="resume" class="content-block"></div>
   </div>
@@ -116,9 +113,15 @@ h2 {
 }
 
 .content-block h3 {
-  color: #57c4d0;
+  color: #fff;
+  font-size: 1.25em;
   font-weight: bold;
-  margin: 0.5em 0;
+  margin: 0.75em 0 0;
+}
+
+#exp-items p,
+#edu-items p {
+  margin-top: 0;
 }
 
 .content-block ul {
@@ -143,11 +146,6 @@ li {
 
 #summary {
   font-size: 1.1em;
-}
-
-.job-title {
-  font-size: 1.2em;
-  font-weight: bold;
 }
 
 #resume {
