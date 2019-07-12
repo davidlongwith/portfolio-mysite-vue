@@ -48,7 +48,8 @@ body {
 }
 
 body {
-  overflow-x: hidden;
+  color: rgb(250, 250, 250);
+  overflow-x: hidden; /* required for side panels */
 }
 
 canvas {
@@ -71,7 +72,6 @@ canvas {
 main {
   align-items: center;
   background: rgba(0, 0, 0, 0);
-  color: #fff;
   display: flex; /* prevents margin collapse */
   height: 100vh;
   justify-content: center;

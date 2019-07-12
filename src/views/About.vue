@@ -39,23 +39,25 @@
     <h2>Experience</h2>
     <div class="content-block">
       <p>
-        React Nano
+        <span class="job-title">React Nano</span>
         <br />April 2019 - Present <br />Professional React Developer nanodegree
         by Udacity
       </p>
       <p>
-        Mobile Web Specialist
+        <span class="job-title">Mobile Web Specialist</span>
         <br />April 2018 - October 2018 <br />6-month advanced web development
         nanodegree by Udacity
       </p>
       <p>
-        Grow with Google Developer Challenge Scholarship
+        <span class="job-title"
+          >Grow with Google Developer Challenge Scholarship</span
+        >
         <br />January 2018 - April 2018 (3-month) <br />Top 10% awarded full
         scholarship to the Mobile Web Specialist nanodegree program by Udacity
         in partnership with Google
       </p>
       <p>
-        Self-taught Web Developer
+        <span class="job-title">Self-taught Web Developer</span>
         <br />Since 2015
       </p>
     </div>
@@ -74,7 +76,6 @@ export default {};
 }
 
 .content-block {
-  color: #fff;
   padding-bottom: 10px;
 }
 
@@ -109,6 +110,7 @@ export default {};
 
 h2 {
   border-bottom: 4px solid #57c4d0;
+  color: #fff;
   display: inline-block;
   margin-bottom: 5px;
 }
@@ -141,6 +143,11 @@ li {
 
 #summary {
   font-size: 1.1em;
+}
+
+.job-title {
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 #resume {

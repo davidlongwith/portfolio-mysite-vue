@@ -43,7 +43,6 @@ header {
 header button {
   background: none;
   border: none;
-  color: #fff;
   height: 50px;
   margin: 0 3%;
   padding: 0;
@@ -71,7 +70,7 @@ header button {
 }
 
 .brand {
-  color: #fff;
+  color: rgb(250, 250, 250);
   font-family: "Trykker", cursive, sans-serif;
   font-size: 1.05em;
   font-weight: 700;

@@ -23,6 +23,7 @@ div {
   }
 }
 .home-intro-1 {
+  color: #fff;
   font-size: 0.8em;
   text-shadow: 0px 1px 2px #000, 0 0 0.2em #fff;
 }
